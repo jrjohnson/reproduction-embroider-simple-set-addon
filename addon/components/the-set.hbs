@@ -1,0 +1,13 @@
+{{this.greeting}}
+
+<button type="button" {{on "click" (set this.greeting "Hello!")}}>
+  English
+</button>
+
+<button type="button" {{on "click" (fn (set this.greeting) "Hola!")}}>
+  Español
+</button>
+
+<button type="button" {{on "click" (set this.greeting false)}}>
+  Clear
+</button>

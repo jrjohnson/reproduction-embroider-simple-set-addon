@@ -1,0 +1,1 @@
+export { default } from 'embroider-simple-set-addon/components/the-set';
